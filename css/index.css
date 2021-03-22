@@ -31,9 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-.header{
-    
-}
+
 ol, ul {
 	list-style: none;
 }
@@ -63,7 +61,8 @@ html, body {
 }
 header {
     width: 100%;
-    background: black;
+    background: white;
+    background-image: image('lambda-black.png');
 }
 
 header nav {
@@ -76,8 +75,9 @@ header nav {
 }
 
 header nav a {
-    color: white;
+    color: black;
     text-decoration: none;
+   
 }
 
 h1, h2, h3, h4, h5 {
