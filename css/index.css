@@ -32,9 +32,7 @@ body {
 	line-height: 1;
 }
 .header{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    
 }
 ol, ul {
 	list-style: none;
@@ -49,16 +47,37 @@ q:before, q:after {
 }
 table {
 	border-collapse: collapse;
-	border-spacing: 0;
+    border-spacing: 0;
+    
 }
 
 * {
     box-sizing: border-box;
+    
 }
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    
+}
+header {
+    width: 100%;
+    background: black;
+}
+
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
 }
 
 h1, h2, h3, h4, h5 {
@@ -74,6 +93,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+
 }
 
 .top-content {
@@ -115,6 +135,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .bottom-content {
